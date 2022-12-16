@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Qianli Wu</title>
+        <!--在HTML里加入JavaScript代码-->
+	    <script>
+            //写一个名叫CalcReqFinalScores的方程
+            function CalcReqFinalScores() {
+                let finalexamScoreA;
+                var assignScore;
+                var mtScore;
+                var participationScore;
+                var quizScore
+                var assignRate;
+                var mtRate;
+                var participationRate;
+                var FinalRate
+                var quizRate
+                var finalScore
+                var lettergrade
+
+                // 弹出一个对话框：hello
+                // alert("hello");
+                assignScore = Number(document.getElementById('assignScoreID').value);
+                mtScore = Number(document.getElementById('mtScoreID').value);
+                participationScore = Number(document.getElementById('participationScoreID').value);
+                quizScore = Number(document.getElementById('quizScoreID').value);
+                assignRate = Number(document.getElementById('assignScoreRateID').value);
+                mtRate = Number(document.getElementById('mtScoreRateID').value);
+                participationRate = Number(document.getElementById('participationScoreRateID').value);
+                finalScore = Number(document.getElementById('finalScoreID').value);
+                FinalRate = Number(document.getElementById('finalRateID').value);
+                quizRate = Number(document.getElementById('quizScoreRateID').value);
+
+                finalexamScoreA = (97.0 - assignRate*assignScore - mtRate*mtScore - participationRate*participationScore - quizScore*quizRate)/FinalRate;
+                finalexamScoreB = (93.0 - assignRate*assignScore - mtRate*mtScore - participationRate*participationScore - quizScore*quizRate)/FinalRate;
+                finalexamScoreC = (70.0 - assignRate*assignScore - mtRate*mtScore - participationRate*participationScore - quizScore*quizRate)/FinalRate;
+                totalgrade = assignRate*assignScore + mtRate*mtScore + participationRate*participationScore + quizScore*quizRate + finalScore*FinalRate;
+                if (totalgrade >= 97) {
+                    lettergrade = 'A+';
+                }
+                else if (totalgrade >= 93) {
+                    lettergrade = 'A';
+                }
+                else if (totalgrade >= 73) {
+                    lettergrade = 'P';
+                }
+                else {
+                    lettergrade = '你算错了吧'
+                }
+
+                document.getElementById("spanA").innerHTML = finalexamScoreA;
+                document.getElementById("spanB").innerHTML = finalexamScoreB;
+                document.getElementById("spanC").innerHTML = finalexamScoreC;
+                document.getElementById("totalgrade").innerHTML = totalgrade + lettergrade;
+            
+            }
+	    </script>
+    </head>
+    <body>
+        Hi, this is Qianli Wu! 
+        <hr>
+        Here's a calculator for expected grade
+        <!--输入框以及按钮-->
+        <p>Calculator</p>
+        <pre>Assignments score (0-100):   <input id="assignScoreID" type="text">   Porportion(0.0-1.0): <input id="assignScoreRateID" type="text"> <br /><br /></pre>
+        <pre>Midterm score (0-100):       <input id="mtScoreID" type="text">   Porportion(0.0-1.0): <input id="mtScoreRateID" type="text"> <br /><br /> </pre>
+        <pre>Quiz score (0-100):          <input id="quizScoreID" type="text">   Porportion(0.0-1.0): <input id="quizScoreRateID" type="text"> <br /><br /> </pre>
+        <pre>Participation score (0-100): <input id="participationScoreID" type="text">   Porportion(0.0-1.0): <input id="participationScoreRateID" type="text"> <br /><br /></pre>
+        <pre>Final score:                 <input id="finalScoreID" type="text">   Porportion(0.0-1.0): <input id="finalRateID" type = "text"> <br> </pre>
+
+        <button type="button" onclick="CalcReqFinalScores()">Calculate required final scores</button>
+
+        <p>Final exam score needed for an A+: <span id="spanA" style="color: rgba(0, 255, 0, 0.589);">no input</span> </p>
+        <p>Final exam score needed for an A: <span id="spanB" style="color: rgba(255, 0, 170, 0.726);">no input</span> </p>
+        <p>Final exam score needed for an P: <span id="spanC" style="color: rgb(255, 81, 0);">no input</span> </p>
+        <p>Total: <span id="totalgrade" style="color:rgb(0, 102, 255)">no input</span></p>
+
+    </body>
+</html>

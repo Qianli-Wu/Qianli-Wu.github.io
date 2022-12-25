@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb0ec7bb6cf5aa6c8b975381ba754e53",
+    "revision": "fc080cb3fc9f37d94a3d1762cbe537fd",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.d7ceb645.chunk.css"
   },
   {
-    "revision": "38a7d665ac0f8e254e57",
+    "revision": "2616f7e1681532aee22e",
     "url": "/static/css/main.6b13a1fd.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.ec2ecc6b.chunk.js"
   },
   {
-    "revision": "38a7d665ac0f8e254e57",
-    "url": "/static/js/main.31c8fd81.chunk.js"
+    "revision": "2616f7e1681532aee22e",
+    "url": "/static/js/main.0bc4ecc3.chunk.js"
   },
   {
     "revision": "69b4b66f11ecc62c6cef",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/baiduLogo.53fbab67.jpg"
   },
   {
-    "revision": "83a59da078003bafcbd980f3cd0b8194",
-    "url": "/static/media/casLogo.83a59da0.jfif"
+    "revision": "6d6eea316b7322e5df871af5e8f62f38",
+    "url": "/static/media/casLogo.6d6eea31.jfif"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",

@@ -47,6 +47,15 @@ export default function EducationCard({school}) {
               >
                 {school.subHeader}
               </h5>
+              <h5
+                className={
+                  isDark
+                    ? "dark-mode education-text-subHeader"
+                    : "education-text-subHeader"
+                }
+              >
+                {school.minor}
+              </h5>
               <p
                 className={`${
                   isDark ? "dark-mode" : ""

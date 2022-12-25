@@ -111,12 +111,14 @@ const educationInfo = {
     {
       schoolName: "UCLA",
       logo: require("./assets/images/uclaLogo.png"),
-      subHeader: "Bachelor of Science in Mathematics of Computation",
+      subHeader: "B.S. in Mathematics of Computation",
+      minor: "Minor in Statistics",
       duration: "September 2021 - June 2024",
       desc: "Honors Program, GPA 3.94",
       descBullets: [
         "Dean's Honor List in Fall 2021, Winter 2022, and Spring 2022",
-        "Member of UPE (honor society for the Computing and Information Disciplines) and DataRes Research Team"
+        "Member of UPE (honor society for the Computing and Information Disciplines)",
+        "Researcher of DataRes Research Team"
       ]
     },
   ]
@@ -133,11 +135,11 @@ const techStack = {
     },
     {
       Stack: "Frontend/Design",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Backend",
-      progressPercentage: "60%"
+      progressPercentage: "65%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -348,7 +350,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  number: "+1-0000000000",
   email_address: "qianliwu@ucla.edu"
 };
 
@@ -359,7 +361,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

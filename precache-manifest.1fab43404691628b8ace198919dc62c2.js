@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc080cb3fc9f37d94a3d1762cbe537fd",
+    "revision": "8448dcf8cc108c18f898f57df6758ee7",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.d7ceb645.chunk.css"
   },
   {
-    "revision": "2616f7e1681532aee22e",
+    "revision": "a9ac77ac3c056b401a23",
     "url": "/static/css/main.6b13a1fd.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.ec2ecc6b.chunk.js"
   },
   {
-    "revision": "2616f7e1681532aee22e",
-    "url": "/static/js/main.0bc4ecc3.chunk.js"
+    "revision": "a9ac77ac3c056b401a23",
+    "url": "/static/js/main.75b842f5.chunk.js"
   },
   {
     "revision": "69b4b66f11ecc62c6cef",
@@ -100,7 +100,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ucla-logo-circle.ef3381a1.png"
   },
   {
-    "revision": "be46e8cfb356af9a60efac907e86f8d6",
-    "url": "/static/media/uclaLogo.be46e8cf.png"
+    "revision": "8197e0ccb81e27744a2e737131e07143",
+    "url": "/static/media/uclaLogo.8197e0cc.png"
   }
 ]);

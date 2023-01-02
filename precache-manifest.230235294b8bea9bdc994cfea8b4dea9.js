@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f875cca412be6852b8fab3c6f9c238e1",
+    "revision": "4d2a10a1035dca1194e50cc24d96cf10",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.d7ceb645.chunk.css"
   },
   {
-    "revision": "a9ac77ac3c056b401a23",
+    "revision": "89c8d9f20301e3ab8baa",
     "url": "/static/css/main.6b13a1fd.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.ec2ecc6b.chunk.js"
   },
   {
-    "revision": "a9ac77ac3c056b401a23",
-    "url": "/static/js/main.75b842f5.chunk.js"
+    "revision": "89c8d9f20301e3ab8baa",
+    "url": "/static/js/main.51680935.chunk.js"
   },
   {
     "revision": "69b4b66f11ecc62c6cef",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53fbab677aebd5f042dd90a611bd20b1",
     "url": "/static/media/baiduLogo.53fbab67.jpg"
+  },
+  {
+    "revision": "673b96229a55fcdd038679b28a983675",
+    "url": "/static/media/bruintradeLogo.673b9622.svg"
   },
   {
     "revision": "6d6eea316b7322e5df871af5e8f62f38",
@@ -76,16 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/manOnTable.52be3144.svg"
   },
   {
-    "revision": "829ad0a1deef4d7295adfecdf12df2be",
-    "url": "/static/media/nextuLogo.829ad0a1.webp"
-  },
-  {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
     "url": "/static/media/pwaLogo.ee62cb58.webp"
-  },
-  {
-    "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
-    "url": "/static/media/saayaHealthLogo.25018d29.webp"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
@@ -102,5 +98,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8197e0ccb81e27744a2e737131e07143",
     "url": "/static/media/uclaLogo.8197e0cc.png"
+  },
+  {
+    "revision": "bdbc05279c48e4d6a492a4c957f45c0c",
+    "url": "/static/media/white_cryptoswapLogo.bdbc0527.svg"
   }
 ]);

@@ -23,7 +23,7 @@ const greeting = {
   username: "Qianli Wu",
   title: "Hi all, I'm Qianli",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "As a computer science student with a strong foundation in programming and a passion for problem-solving, I am excited to apply for software development and data analysis intern positions. My technical skills include proficiency in Python and C/C++, as well as familiarity with a variety of programming languages such as Javascript, Lisp, and Haskell. I have experience working with deep learning and web development frameworks including Pytorch, Paddlepaddle, React.js, TailWind CSS, and Firebase. In addition to my technical abilities, I am a problem-solver with a passion for computer science. I enjoy staying current on industry trends and improving my skills through hands-on projects and strategic video games. I have a strong foundation in math and computer science, combined with a minor in statistics and a diverse skill set, making me well-suited for roles in software development and data analysis."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -130,7 +130,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Programming", //Insert stack or technology you have experience in
+      Stack: "Python", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {

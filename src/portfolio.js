@@ -23,8 +23,14 @@ const greeting = {
   username: "Qianli Wu",
   title: "Hi all, I'm Qianli",
   subTitle: emoji(
-    "As a computer science student with a strong foundation in programming and a passion for problem-solving, I am excited to apply for software development and data analysis intern positions. My technical skills include proficiency in Python and C/C++, as well as familiarity with a variety of programming languages such as Javascript, Lisp, and Haskell. I have experience working with deep learning and web development frameworks including Pytorch, Paddlepaddle, React.js, TailWind CSS, and Firebase. In addition to my technical abilities, I am a problem-solver with a passion for computer science. I enjoy staying current on industry trends and improving my skills through hands-on projects and strategic video games. I have a strong foundation in math and computer science, combined with a minor in statistics and a diverse skill set, making me well-suited for roles in software development and data analysis."
+    "I am a problem-solver with a passion for computer science. 😀\
+    My technical expertise includes proficiency in Python and C/C++, \
+    and familiarity with various programming languages, e.g. JavaScript, Lisp, Haskell, etc. \
+    I have experience working with deep learning and development tools,\
+     e.g. Pytorch, React.js, Firebase, etc. "
   ),
+  subTitle2: "I enjoy staying current on industry trends and improving my skills through hands-on projects and, \
+  last but not least, I also enjoy playing strategy games!",
   resumeLink:
     "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true

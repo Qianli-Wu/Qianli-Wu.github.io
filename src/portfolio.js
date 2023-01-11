@@ -22,15 +22,15 @@ const illustration = {
 const greeting = {
   username: "Qianli Wu",
   title: "Hi all, I'm Qianli",
-  subTitle: emoji(
-    "I am a problem-solver with a passion for computer science. 😀\
-    My technical expertise includes proficiency in Python and C/C++, \
-    and familiarity with various programming languages, e.g. JavaScript, Lisp, Haskell, etc. \
-    I have experience working with deep learning and development tools,\
-     e.g. Pytorch, React.js, Firebase, etc. "
-  ),
-  subTitle2: "I enjoy staying current on industry trends and improving my skills through hands-on projects and, \
-  last but not least, I also enjoy playing strategy games!",
+  subTitle0: " ",
+  subTitle1: 
+    "I am a problem-solver with a passion for computer science! 🍻\
+    I enjoy staying current on industry trends and improving my skills through hands-on projects and, \
+  last but not least, I also enjoy playing strategy games! 🤩",
+  subTitle2: "My technical expertise includes proficiency in Python and C/C++. \
+  I have experience working with deep learning and development tools,\
+   e.g. Pytorch, React.js, Firebase, etc.🔥🔥🔥 \
+   ",
   resumeLink:
     "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true

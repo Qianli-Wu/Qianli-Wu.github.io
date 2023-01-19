@@ -215,7 +215,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://bruintrade.com"
+          url: "https://www.bruintrade.com"
         }
       ]
     },

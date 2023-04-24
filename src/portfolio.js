@@ -70,6 +70,14 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "C/C++",
+      fontAwesomeClassname: "fa-solid fa-code"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
@@ -82,28 +90,40 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "pytorch",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "padddlepaddle",
+      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "google-cloud", 
+      fontAwesomeClassname: "fab fa-google"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -120,7 +140,7 @@ const educationInfo = {
       subHeader: "B.S. in Mathematics of Computation",
       minor: "Minor in Statistics",
       duration: "September 2021 - June 2024",
-      desc: "Honors Program, GPA 3.94",
+      desc: "Honors Program, GPA 3.95",
       descBullets: [
         "Dean's Honor List in Fall 2021, Winter 2022, and Spring 2022",
         "Member of UPE (honor society for the Computing and Information Disciplines)",
@@ -144,7 +164,7 @@ const techStack = {
       progressPercentage: "80%"
     },
     {
-      Stack: "Backend",
+      Stack: "Deep Learning",
       progressPercentage: "65%"
     }
   ],
@@ -209,7 +229,7 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/bruintradeLogo.svg"),
+      image: require("./assets/images/bruintradeLogo.png"),
       projectName: "BruinTrade",
       projectDesc: "A trading platform for UCLA community",
       footerLink: [
@@ -220,7 +240,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/white_cryptoswapLogo.svg"),
+      image: require("./assets/images/white_cryptoswapLogo.png"),
       projectName: "CryptoSwap",
       projectDesc: "A scalable decentralized exchange",
       footerLink: [

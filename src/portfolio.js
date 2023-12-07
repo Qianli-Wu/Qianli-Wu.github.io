@@ -138,13 +138,13 @@ const educationInfo = {
       schoolName: "UCLA",
       logo: require("./assets/images/uclaLogo.png"),
       subHeader: "B.S. in Mathematics of Computation",
-      minor: "Minor in Statistics",
-      duration: "September 2021 - June 2024",
-      desc: "Honors Program, GPA 3.95",
+      minor: "Minor in Statistics and Data Science",
+      duration: "September 2021 - Dec 2023",
+      desc: "Honors Program, GPA 3.94",
       descBullets: [
-        "Dean's Honor List in Fall 2021, Winter 2022, and Spring 2022",
-        "Member of UPE (honor society for the Computing and Information Disciplines)",
-        "Researcher of DataRes Research Team"
+        "Dean's Honor List from Fall 2021 to Spring 2023",
+        "Web Chair at UPE (honor society for the Computing and Information Disciplines)",
+        "PIC 10C (Advanced Programming (C++)) course reader",
       ]
     },
   ]
@@ -180,7 +180,7 @@ const workExperiences = {
       role: "Learning Assistant",
       company: "UCLA",
       companylogo: require("./assets/images/ucla-logo-circle.png"),
-      date: "September 2022 – Present",
+      date: "Sep 2022 – Present",
       desc: "",
       descBullets: [
         "Facilitate collaborative and inclusive learning in Software Construction (CS 35L)",
@@ -189,10 +189,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Research Assistant",
+      role: "Research Intern",
       company: "Baidu",
       companylogo: require("./assets/images/baiduLogo.jpg"),
-      date: "June 2022 – September 2022",
+      date: "Jun 2022 – Sep 2022",
       desc: "",
       descBullets: [
         "Optimized Simple Spectural Graph Attention Network",
@@ -204,7 +204,7 @@ const workExperiences = {
       role: "Frontend Engineer Intern",
       company: "Computer Network Information Center, Chinese Academy of Science",
       companylogo: require("./assets/images/casLogo.jfif"),
-      date: "June 2021 – September 2021",
+      date: "Jun 2021 – Sep 2021",
       desc: "",
       descBullets: [
         "Collaborated with 2 engineers to make the front-end of a data collection system; Eenabled auto generation of interactive charts",
@@ -225,9 +225,20 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME PROJECTS THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      image: require("./assets/images/dino.png"),
+      projectName: "Web server",
+      projectDesc: "A dinosour game on web server built with C++",
+      footerLink: [
+        {
+          name: "Start Game!",
+          url: "http://dino.sudo-rm-rf.cs130.org"
+        }
+      ]
+    },
     {
       image: require("./assets/images/bruintradeLogo.png"),
       projectName: "BruinTrade",
@@ -323,7 +334,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",

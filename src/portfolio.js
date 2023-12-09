@@ -235,7 +235,11 @@ const bigProjects = {
       footerLink: [
         {
           name: "Start Game!",
-          url: "http://dino.sudo-rm-rf.cs130.org"
+          url: "http://dino.sudo-rm-rf.cs130.org/dino/"
+        },
+        {
+          name: "Leaderboard",
+          url: "http://dino.sudo-rm-rf.cs130.org/leaderboard/",
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.87e543a3.css",
-    "main.js": "/static/js/main.a1b8568b.js",
+    "main.js": "/static/js/main.e74c3a75.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.1692348f.chunk.js": "/static/js/64.1692348f.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -12,6 +12,7 @@
     "static/media/ucla-logo-circle.png": "/static/media/ucla-logo-circle.f0bcc413c4216dd0a7c6.png",
     "static/media/white_cryptoswapLogo.png": "/static/media/white_cryptoswapLogo.f30806e6b18a0d532d44.png",
     "static/media/hook.png": "/static/media/hook.cd1aa44ee2cbccfb23b3.png",
+    "static/media/hook_dark.png": "/static/media/hook_dark.aae4991194039a20efee.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/dino.png": "/static/media/dino.7ab93e0b70c833d95e30.png",
@@ -23,7 +24,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.87e543a3.css.map": "/static/css/main.87e543a3.css.map",
-    "main.a1b8568b.js.map": "/static/js/main.a1b8568b.js.map",
+    "main.e74c3a75.js.map": "/static/js/main.e74c3a75.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.1692348f.chunk.js.map": "/static/js/64.1692348f.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -31,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.87e543a3.css",
-    "static/js/main.a1b8568b.js"
+    "static/js/main.e74c3a75.js"
   ]
 }
